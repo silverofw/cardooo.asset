@@ -360,14 +360,24 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
             }
 
             m_ProvideHandle.ResourceManager.WebRequestOverride?.Invoke(webRequest);
+
+            webRequest.certificateHandler = new ForceAcceptAll();
             return webRequest;
         }
 
-        /// <summary>
-        /// Creates a request for loading all assets from an AssetBundle.
-        /// </summary>
-        /// <returns>Returns the request.</returns>
-        public AssetBundleRequest GetAssetPreloadRequest()
+        class ForceAcceptAll : CertificateHandler
+        {
+            protected override bool ValidateCertificate(byte[] certificateData)
+            {
+                return true;
+            }
+        }
+
+    /// <summary>
+    /// Creates a request for loading all assets from an AssetBundle.
+    /// </summary>
+    /// <returns>Returns the request.</returns>
+    public AssetBundleRequest GetAssetPreloadRequest()
         {
             if (m_PreloadCompleted || GetAssetBundle() == null)
                 return null;
