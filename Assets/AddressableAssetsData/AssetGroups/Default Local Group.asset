@@ -22,6 +22,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fdac354db8bc744790279a2c0c2e975
+    m_Address: Assets/HotFixResources/226461660.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: bcda17fc8d6cf3d40a7babebbb4f2686, type: 2}
   m_SchemaSet:

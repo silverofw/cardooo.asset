@@ -16171,7 +16171,7 @@ IL_0035:
 		Assembly_t* L_19 = V_6;
 		NullCheck(L_19);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_20;
-		L_20 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(20, L_19);
+		L_20 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(21, L_19);
 		NullCheck(L_20);
 		String_t* L_21;
 		L_21 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_20, NULL);
@@ -16236,7 +16236,7 @@ IL_0091:
 		String_t* L_35 = V_1;
 		NullCheck(L_34);
 		Type_t* L_36;
-		L_36 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_34, L_35);
+		L_36 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_34, L_35);
 		V_3 = L_36;
 		Type_t* L_37 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
@@ -16384,7 +16384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* DefaultSerializationBinder_GetGeneric
 		String_t* L_7 = V_2;
 		NullCheck(L_6);
 		Type_t* L_8;
-		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_6, L_7);
 		V_3 = L_8;
 		Type_t* L_9 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);

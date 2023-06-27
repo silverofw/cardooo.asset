@@ -12,6 +12,11 @@
 
 
 
+extern void AcceptAllCertificatesSignedWithASpecificKeyPublicKey_ValidateCertificate_m0B9F34CE60EAA60B60ECC5EB5190E6E1C83427B3 (void);
+extern void AcceptAllCertificatesSignedWithASpecificKeyPublicKey__ctor_mAEAE34B5EDCCF533345687A353CF0288551AF567 (void);
+extern void AcceptAllCertificatesSignedWithASpecificKeyPublicKey__cctor_m77E6BA0280402E877CF4666C5F0A150AC5AE3F71 (void);
+extern void ForceAccept_ValidateCertificate_m3C1A0F1FCE4CD06539EB0F8404195A5E648CC45C (void);
+extern void ForceAccept__ctor_m93ADFA63A47C299A437D8E48AD285E3B5AE3446B (void);
 extern void ConsoleToScreen_OnEnable_m742C0F87C812F43375F76A54DAA0A5AF6A72864D (void);
 extern void ConsoleToScreen_OnDisable_m8EBC29961A3FECB32D8C0CD70D443B44C36E6629 (void);
 extern void ConsoleToScreen_Log_mA5DDFAB65C29E797A1C47CD29C6C83E3163A52EA (void);
@@ -21,33 +26,22 @@ extern void AOTGenericReferences_RefMethods_m17CF257D96D8BC2F232C4C1502905B792D1
 extern void AOTGenericReferences__ctor_m41CBD692FC9B521512E552575AFE7A385DEC71A6 (void);
 extern void AOTGenericReferences__cctor_mA46BDC06A6577D725A2E5284A2A34C974CE65F68 (void);
 extern void LoadDll_Start_mFE4D6C8F812A855AFA86FAE2FD87517F85502110 (void);
+extern void LoadDll_CheckForUpdate_mCA7E4089CB9B982D4D7CFEFED6AE6D5D67AA11A0 (void);
 extern void LoadDll__ctor_mBEF8662DD6B3B97424D2F5C1FD7C202013F814A2 (void);
+extern void LoadDll_U3CStartU3Eb__1_0_mDAFFEFB2ACA8F4AC450AE6D3F04C7975D1DB3D0D (void);
 extern void U3CU3Ec__cctor_mC12BDD72F9E9A05FD575211B1B2F168CC3C741B9 (void);
 extern void U3CU3Ec__ctor_m895EBF21426CE7E98587D9579713F76639E0D637 (void);
-extern void U3CU3Ec_U3CStartU3Eb__0_0_mCFB666A331652F80B5DA8EEC3D3921232A165305 (void);
-extern void AddressablesUtility_GetAddressFromAssetReference_m02AF0B6CD523EC9BFAFB68C4489824FCB4A9D377 (void);
-extern void LoadSceneForCustomBuild_Start_mE0A75DD998CA253CBD315002C4F83ABB266D64F6 (void);
-extern void LoadSceneForCustomBuild__ctor_m4F7D66EE77D6881D6BF00497709FD8F5E2EB4B95 (void);
-extern void PrefabSpawnerSample_Start_mBCD8A928695D6F4DF155B8F68B89E5E135F4EEC3 (void);
-extern void PrefabSpawnerSample_StartSpawner_mA0D455BF887465EBD5115267ECA3744D54D2FAAA (void);
-extern void PrefabSpawnerSample_SpawnTemporaryCube_mDCD6033C452F51E5CFC2C740B094A624D9897499 (void);
-extern void PrefabSpawnerSample__ctor_m034121556E9474210A021B8675E145C2E7ECD9F8 (void);
-extern void U3CSpawnTemporaryCubeU3Ed__6__ctor_m8E4BFE46A4FE93ACCDEA119E435BADCD505ECD23 (void);
-extern void U3CSpawnTemporaryCubeU3Ed__6_System_IDisposable_Dispose_m1A5B9E9FC2C8FEFC325F6808A04E13B81B654632 (void);
-extern void U3CSpawnTemporaryCubeU3Ed__6_MoveNext_mFA13828FD213FE8156B58945045B0AFD6457A9EC (void);
-extern void U3CSpawnTemporaryCubeU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m63D5B18CEC89183B459A8BB8C16B8C7027F33F7F (void);
-extern void U3CSpawnTemporaryCubeU3Ed__6_System_Collections_IEnumerator_Reset_m0169FD70CC07165028C1CAB25AE6D77DA6684648 (void);
-extern void U3CSpawnTemporaryCubeU3Ed__6_System_Collections_IEnumerator_get_Current_mE9DD5773B96E90EF2D14F3DA4B1D2B9E905EDFE0 (void);
-extern void U3CStartSpawnerU3Ed__5__ctor_m2FB8349443E94C473E1570436D369B54A2F4CA1A (void);
-extern void U3CStartSpawnerU3Ed__5_System_IDisposable_Dispose_m3BF849F79A63C1954C375B481D4ADE3CAE26F1FD (void);
-extern void U3CStartSpawnerU3Ed__5_MoveNext_m0E104C5FEE35691BE4D815B61C44C5FA8AB08759 (void);
-extern void U3CStartSpawnerU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF229100DD75E062ACB5E54989B881396517D690E (void);
-extern void U3CStartSpawnerU3Ed__5_System_Collections_IEnumerator_Reset_mC9165A87D263459F36DEB98A02F77632E739F790 (void);
-extern void U3CStartSpawnerU3Ed__5_System_Collections_IEnumerator_get_Current_m80A51580D284D89117C5CDE9A05C318612D0250A (void);
+extern void U3CU3Ec_U3CStartU3Eb__1_1_m136E82EDFA447F235E3274186C5E442B5FD590F9 (void);
+extern void U3CU3Ec_U3CCheckForUpdateU3Eb__2_0_m22E22119D4476AABBA2788DD6F172F50DFF471DC (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[42] = 
+static Il2CppMethodPointer s_methodPointers[23] = 
 {
+	AcceptAllCertificatesSignedWithASpecificKeyPublicKey_ValidateCertificate_m0B9F34CE60EAA60B60ECC5EB5190E6E1C83427B3,
+	AcceptAllCertificatesSignedWithASpecificKeyPublicKey__ctor_mAEAE34B5EDCCF533345687A353CF0288551AF567,
+	AcceptAllCertificatesSignedWithASpecificKeyPublicKey__cctor_m77E6BA0280402E877CF4666C5F0A150AC5AE3F71,
+	ForceAccept_ValidateCertificate_m3C1A0F1FCE4CD06539EB0F8404195A5E648CC45C,
+	ForceAccept__ctor_m93ADFA63A47C299A437D8E48AD285E3B5AE3446B,
 	ConsoleToScreen_OnEnable_m742C0F87C812F43375F76A54DAA0A5AF6A72864D,
 	ConsoleToScreen_OnDisable_m8EBC29961A3FECB32D8C0CD70D443B44C36E6629,
 	ConsoleToScreen_Log_mA5DDFAB65C29E797A1C47CD29C6C83E3163A52EA,
@@ -57,127 +51,57 @@ static Il2CppMethodPointer s_methodPointers[42] =
 	AOTGenericReferences__ctor_m41CBD692FC9B521512E552575AFE7A385DEC71A6,
 	AOTGenericReferences__cctor_mA46BDC06A6577D725A2E5284A2A34C974CE65F68,
 	LoadDll_Start_mFE4D6C8F812A855AFA86FAE2FD87517F85502110,
+	LoadDll_CheckForUpdate_mCA7E4089CB9B982D4D7CFEFED6AE6D5D67AA11A0,
 	LoadDll__ctor_mBEF8662DD6B3B97424D2F5C1FD7C202013F814A2,
+	LoadDll_U3CStartU3Eb__1_0_mDAFFEFB2ACA8F4AC450AE6D3F04C7975D1DB3D0D,
 	U3CU3Ec__cctor_mC12BDD72F9E9A05FD575211B1B2F168CC3C741B9,
 	U3CU3Ec__ctor_m895EBF21426CE7E98587D9579713F76639E0D637,
-	U3CU3Ec_U3CStartU3Eb__0_0_mCFB666A331652F80B5DA8EEC3D3921232A165305,
-	AddressablesUtility_GetAddressFromAssetReference_m02AF0B6CD523EC9BFAFB68C4489824FCB4A9D377,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	LoadSceneForCustomBuild_Start_mE0A75DD998CA253CBD315002C4F83ABB266D64F6,
-	LoadSceneForCustomBuild__ctor_m4F7D66EE77D6881D6BF00497709FD8F5E2EB4B95,
-	PrefabSpawnerSample_Start_mBCD8A928695D6F4DF155B8F68B89E5E135F4EEC3,
-	PrefabSpawnerSample_StartSpawner_mA0D455BF887465EBD5115267ECA3744D54D2FAAA,
-	PrefabSpawnerSample_SpawnTemporaryCube_mDCD6033C452F51E5CFC2C740B094A624D9897499,
-	PrefabSpawnerSample__ctor_m034121556E9474210A021B8675E145C2E7ECD9F8,
-	U3CSpawnTemporaryCubeU3Ed__6__ctor_m8E4BFE46A4FE93ACCDEA119E435BADCD505ECD23,
-	U3CSpawnTemporaryCubeU3Ed__6_System_IDisposable_Dispose_m1A5B9E9FC2C8FEFC325F6808A04E13B81B654632,
-	U3CSpawnTemporaryCubeU3Ed__6_MoveNext_mFA13828FD213FE8156B58945045B0AFD6457A9EC,
-	U3CSpawnTemporaryCubeU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m63D5B18CEC89183B459A8BB8C16B8C7027F33F7F,
-	U3CSpawnTemporaryCubeU3Ed__6_System_Collections_IEnumerator_Reset_m0169FD70CC07165028C1CAB25AE6D77DA6684648,
-	U3CSpawnTemporaryCubeU3Ed__6_System_Collections_IEnumerator_get_Current_mE9DD5773B96E90EF2D14F3DA4B1D2B9E905EDFE0,
-	U3CStartSpawnerU3Ed__5__ctor_m2FB8349443E94C473E1570436D369B54A2F4CA1A,
-	U3CStartSpawnerU3Ed__5_System_IDisposable_Dispose_m3BF849F79A63C1954C375B481D4ADE3CAE26F1FD,
-	U3CStartSpawnerU3Ed__5_MoveNext_m0E104C5FEE35691BE4D815B61C44C5FA8AB08759,
-	U3CStartSpawnerU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF229100DD75E062ACB5E54989B881396517D690E,
-	U3CStartSpawnerU3Ed__5_System_Collections_IEnumerator_Reset_mC9165A87D263459F36DEB98A02F77632E739F790,
-	U3CStartSpawnerU3Ed__5_System_Collections_IEnumerator_get_Current_m80A51580D284D89117C5CDE9A05C318612D0250A,
+	U3CU3Ec_U3CStartU3Eb__1_1_m136E82EDFA447F235E3274186C5E442B5FD590F9,
+	U3CU3Ec_U3CCheckForUpdateU3Eb__2_0_m22E22119D4476AABBA2788DD6F172F50DFF471DC,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[42] = 
+static const int32_t s_InvokerIndices[23] = 
 {
-	3285,
-	3285,
-	958,
-	3285,
-	3285,
-	3285,
-	3285,
-	5319,
-	3285,
-	3285,
-	5319,
-	3285,
-	2555,
-	5037,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	3285,
-	3285,
-	3285,
-	3229,
-	3229,
-	3285,
-	2699,
-	3285,
-	3184,
-	3229,
-	3285,
-	3229,
-	2699,
-	3285,
-	3184,
-	3229,
-	3285,
-	3229,
-	5324,
-	3285,
-};
-static const Il2CppTokenRangePair s_rgctxIndices[1] = 
-{
-	{ 0x02000007, { 0, 10 } },
-};
-extern const uint32_t g_rgctx_ComponentReference_1_GameObjectReady_mB32C9970D399EA87EFD36BA26B68F7CF22115DD5;
-extern const uint32_t g_rgctx_Func_2_t7B2BBD2EFC345A0BA52BC98E1BC09EE6F3255FDB;
-extern const uint32_t g_rgctx_Func_2__ctor_m31005BF47DF0DEBAE4331F2FD2182A58BA7F9073;
-extern const uint32_t g_rgctx_ResourceManager_CreateChainOperation_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mBA26D80A585C618978DC48FFEC26B0DE51B4311E;
-extern const uint32_t g_rgctx_AsyncOperationHandle_1_t193D425ED1C126C8AD4CAB0994BD093CD82D0EF1;
-extern const uint32_t g_rgctx_GameObject_GetComponent_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_mF7B7A368944F7BD88A56B774E1DCF11A8B311A88;
-extern const uint32_t g_rgctx_TComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3;
-extern const uint32_t g_rgctx_ResourceManager_CreateCompletedOperation_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_m1BEE0857C92DEE2B0CA47C9E0E3E8451A4FAB43E;
-extern const uint32_t g_rgctx_AsyncOperationHandle_1_get_Result_m78B7229CEF0DD8FF1CCE8CBA9C1D0011849A17D8;
-extern const uint32_t g_rgctx_Addressables_Release_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_m975A226F7B04BFA4B804ED7A00A8EDC5A7F7AACB;
-static const Il2CppRGCTXDefinition s_rgctxValues[10] = 
-{
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ComponentReference_1_GameObjectReady_mB32C9970D399EA87EFD36BA26B68F7CF22115DD5 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_t7B2BBD2EFC345A0BA52BC98E1BC09EE6F3255FDB },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2__ctor_m31005BF47DF0DEBAE4331F2FD2182A58BA7F9073 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_CreateChainOperation_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mBA26D80A585C618978DC48FFEC26B0DE51B4311E },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_AsyncOperationHandle_1_t193D425ED1C126C8AD4CAB0994BD093CD82D0EF1 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GameObject_GetComponent_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_mF7B7A368944F7BD88A56B774E1DCF11A8B311A88 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ResourceManager_CreateCompletedOperation_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_m1BEE0857C92DEE2B0CA47C9E0E3E8451A4FAB43E },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncOperationHandle_1_get_Result_m78B7229CEF0DD8FF1CCE8CBA9C1D0011849A17D8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Addressables_Release_TisTComponent_t7C531AADAE4931671E9EF85C480A4F3304E4DAB3_m975A226F7B04BFA4B804ED7A00A8EDC5A7F7AACB },
+	3720,
+	6249,
+	9133,
+	3720,
+	6249,
+	6249,
+	6249,
+	1584,
+	6249,
+	6249,
+	6249,
+	6249,
+	9133,
+	6249,
+	6249,
+	6249,
+	4744,
+	9133,
+	6249,
+	4745,
+	4737,
+	9139,
+	6249,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	42,
+	23,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	1,
-	s_rgctxIndices,
-	10,
-	s_rgctxValues,
+	0,
+	NULL,
+	0,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

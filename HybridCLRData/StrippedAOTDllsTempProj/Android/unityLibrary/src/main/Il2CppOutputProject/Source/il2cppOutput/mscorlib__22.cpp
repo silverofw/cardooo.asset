@@ -1834,12 +1834,14 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 };
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4  : public RuntimeObject
 {
+	String_t* ___m_listSeparator;
 	bool ___m_isReadOnly;
 	String_t* ___m_cultureName;
 	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData;
 	String_t* ___m_textInfoName;
 	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___m_IsAsciiCasingSameAsInvariant;
 	String_t* ___customCultureName;
+	int32_t ___m_nDataItem;
 	bool ___m_useUserOverride;
 	int32_t ___m_win32LangID;
 };
@@ -18459,7 +18461,7 @@ IL_001f:
 		String_t* L_7 = V_0;
 		NullCheck(L_6);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(15, L_6, L_7, 1);
+		L_8 = VirtualFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(17, L_6, L_7, 1);
 		return L_8;
 	}
 }

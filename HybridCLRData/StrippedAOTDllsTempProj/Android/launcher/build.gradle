@@ -16,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 31
         targetSdkVersion 32
         applicationId 'com.cardooo.cardooo.asset'
         ndk {

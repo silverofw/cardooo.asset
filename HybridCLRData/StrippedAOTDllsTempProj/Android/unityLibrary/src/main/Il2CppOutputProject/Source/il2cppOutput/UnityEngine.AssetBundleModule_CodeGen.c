@@ -13,6 +13,7 @@
 
 
 extern void AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410 (void);
+extern void AssetBundle_UnloadAllAssetBundles_mF68ACFAF3AB098C0E083552C235B20508C58C11D (void);
 extern void AssetBundle_GetAllLoadedAssetBundles_Native_m67164021223D792B05A0D016EED0418D35EC8B7F (void);
 extern void AssetBundle_GetAllLoadedAssetBundles_m2975A463EF64FC0B497BC189F8DC4A584FF361AA (void);
 extern void AssetBundle_LoadFromFileAsync_Internal_mB3D099E653D4AF91E5EA8CDCC49E8AB1BBAB764B (void);
@@ -34,9 +35,10 @@ extern void AssetBundleRequest_get_allAssets_mCA7BF6BCBBDA2E6DF596655254842B5380
 extern void AssetBundleRequest__ctor_mD73743E1532E41D8AD2871C00A7FCDA5157171C0 (void);
 extern void AssetBundleUnloadOperation_WaitForCompletion_mB088D657C55F6D7D203551013B216BE9391E3979 (void);
 extern void AssetBundleUnloadOperation__ctor_m2CE9493424B3BD4B07FC03516F01F8425D0EEF83 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+static Il2CppMethodPointer s_methodPointers[24] = 
 {
 	AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410,
+	AssetBundle_UnloadAllAssetBundles_mF68ACFAF3AB098C0E083552C235B20508C58C11D,
 	AssetBundle_GetAllLoadedAssetBundles_Native_m67164021223D792B05A0D016EED0418D35EC8B7F,
 	AssetBundle_GetAllLoadedAssetBundles_m2975A463EF64FC0B497BC189F8DC4A584FF361AA,
 	AssetBundle_LoadFromFileAsync_Internal_mB3D099E653D4AF91E5EA8CDCC49E8AB1BBAB764B,
@@ -60,35 +62,36 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	AssetBundleUnloadOperation_WaitForCompletion_mB088D657C55F6D7D203551013B216BE9391E3979,
 	AssetBundleUnloadOperation__ctor_m2CE9493424B3BD4B07FC03516F01F8425D0EEF83,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[24] = 
 {
-	3285,
-	5298,
-	5298,
-	4165,
-	5037,
-	4558,
-	1323,
-	1323,
-	3229,
+	6249,
+	8959,
+	9103,
+	9103,
+	7523,
+	8735,
+	8104,
+	2300,
+	2300,
+	6133,
 	0,
-	2457,
-	1323,
-	2670,
-	2443,
-	1323,
-	3229,
-	3285,
-	3229,
-	3229,
-	3229,
-	3285,
-	3285,
-	3285,
+	4541,
+	2300,
+	5023,
+	4526,
+	2300,
+	6133,
+	6249,
+	6133,
+	6133,
+	6133,
+	6249,
+	6249,
+	6249,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x0600000A, { 0, 1 } },
+	{ 0x0600000B, { 0, 1 } },
 };
 extern const uint32_t g_rgctx_T_tC8CF0BFA5D22C4F7820EBABAAA7C4FF82150A459;
 static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
@@ -99,7 +102,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGe
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule = 
 {
 	"UnityEngine.AssetBundleModule.dll",
-	23,
+	24,
 	s_methodPointers,
 	0,
 	NULL,

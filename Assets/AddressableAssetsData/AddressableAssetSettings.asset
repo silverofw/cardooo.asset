@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DefaultGroup: a71f68acbc1cbb74c8546d85759f159b
   m_currentHash:
     serializedVersion: 2
-    Hash: 79056584ebb3a7b50db49a653c3eb45e
+    Hash: ebac94f2cc698987ff60568cfeba5309
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     m_Id: a973952d64cc1b44086ae2b520ebcf52
   m_RemoteCatalogLoadPath:
     m_Id: dd40571ebcf407d47a5a7e9bc0a03ba7
-  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_ContentStateBuildPathProfileVariableName: Remote.LoadPath
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 58f149992785fd84bb47f2f9d40d9a09, type: 2}
   m_InitializationObjects: []
   m_CertificateHandlerType:
-    m_AssemblyName: 
-    m_ClassName: 
+    m_AssemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: ForceAccept
   m_ActivePlayerDataBuilderIndex: 3
   m_DataBuilders:
   - {fileID: 11400000, guid: af8be18ec11541a48ab922a9a3f95166, type: 2}

@@ -1019,6 +1019,9 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D  : public RuntimeObje
 	RuntimeObject* ____keycomparer;
 	RuntimeObject* ____syncRoot;
 };
+struct HashtableExtensions_t856DEECAB5172E908DD4944C65112B8D863DC779  : public RuntimeObject
+{
+};
 struct InstanceDescriptor_t19684A5B2EDEBF906D50F65DC39F9B4D5E0843A5  : public RuntimeObject
 {
 	RuntimeObject* ___U3CArgumentsU3Ek__BackingField;
@@ -9125,7 +9128,7 @@ IL_000d:
 		String_t* L_8 = ___0_typeName;
 		NullCheck(L_7);
 		Type_t* L_9;
-		L_9 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_7, L_8);
+		L_9 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_7, L_8);
 		V_1 = L_9;
 	}
 
@@ -22410,6 +22413,14 @@ IL_003c:
 		return L_12;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

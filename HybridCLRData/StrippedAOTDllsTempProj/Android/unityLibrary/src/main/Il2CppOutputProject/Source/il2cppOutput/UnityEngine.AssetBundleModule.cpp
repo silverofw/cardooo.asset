@@ -493,6 +493,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetBundle__ctor_m12989CA081324BB49ED89
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetBundle_UnloadAllAssetBundles_mF68ACFAF3AB098C0E083552C235B20508C58C11D (bool ___0_unloadAllObjects, const RuntimeMethod* method) 
+{
+	typedef void (*AssetBundle_UnloadAllAssetBundles_mF68ACFAF3AB098C0E083552C235B20508C58C11D_ftn) (bool);
+	static AssetBundle_UnloadAllAssetBundles_mF68ACFAF3AB098C0E083552C235B20508C58C11D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundle_UnloadAllAssetBundles_mF68ACFAF3AB098C0E083552C235B20508C58C11D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundle::UnloadAllAssetBundles(System.Boolean)");
+	_il2cpp_icall_func(___0_unloadAllObjects);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AssetBundleU5BU5D_t6C135EB4786508F050C22921096F7BDBE1EF0644* AssetBundle_GetAllLoadedAssetBundles_Native_m67164021223D792B05A0D016EED0418D35EC8B7F (const RuntimeMethod* method) 
 {
 	typedef AssetBundleU5BU5D_t6C135EB4786508F050C22921096F7BDBE1EF0644* (*AssetBundle_GetAllLoadedAssetBundles_Native_m67164021223D792B05A0D016EED0418D35EC8B7F_ftn) ();

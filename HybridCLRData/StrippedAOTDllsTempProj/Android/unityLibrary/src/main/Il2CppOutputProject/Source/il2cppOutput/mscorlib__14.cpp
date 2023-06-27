@@ -6535,7 +6535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivatedClientTypeEntry__ctor_mDB863F62
 		String_t* L_6 = ___0_typeName;
 		NullCheck(L_5);
 		Type_t* L_7;
-		L_7 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_5, L_6);
+		L_7 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_5, L_6);
 		__this->___obj_type = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___obj_type), (void*)L_7);
 		Type_t* L_8 = __this->___obj_type;
@@ -6627,7 +6627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivatedServiceTypeEntry__ctor_m241F148
 		String_t* L_5 = ___0_typeName;
 		NullCheck(L_4);
 		Type_t* L_6;
-		L_6 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_4, L_5);
 		__this->___obj_type = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___obj_type), (void*)L_6);
 		Type_t* L_7 = __this->___obj_type;
@@ -17293,7 +17293,7 @@ IL_0027:
 		L_10 = VirtualFuncInvoker0< Assembly_t* >::Invoke(27, L_9);
 		NullCheck(L_10);
 		AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* L_11;
-		L_11 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(20, L_10);
+		L_11 = VirtualFuncInvoker0< AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* >::Invoke(21, L_10);
 		NullCheck(L_11);
 		String_t* L_12;
 		L_12 = AssemblyName_get_Name_m7899B9B3F289EEBAF62AEAB51D1CA91DA92C4E6A_inline(L_11, NULL);
@@ -17472,7 +17472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoapServices_PreLoad_mD08211CDFC56252AE9
 		Assembly_t* L_0 = ___0_assembly;
 		NullCheck(L_0);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1;
-		L_1 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(17, L_0);
+		L_1 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(18, L_0);
 		V_0 = L_1;
 		V_1 = 0;
 		goto IL_0017;
@@ -18563,7 +18563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WellKnownClientTypeEntry__ctor_mB54C8FD6
 		String_t* L_6 = ___0_typeName;
 		NullCheck(L_5);
 		Type_t* L_7;
-		L_7 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_5, L_6);
+		L_7 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_5, L_6);
 		__this->___obj_type = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___obj_type), (void*)L_7);
 		Type_t* L_8 = __this->___obj_type;
@@ -18679,7 +18679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WellKnownServiceTypeEntry__ctor_m2C72E7E
 		String_t* L_5 = ___0_typeName;
 		NullCheck(L_4);
 		Type_t* L_6;
-		L_6 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_4, L_5);
 		__this->___obj_type = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___obj_type), (void*)L_6);
 		String_t* L_7 = ___2_objectUri;

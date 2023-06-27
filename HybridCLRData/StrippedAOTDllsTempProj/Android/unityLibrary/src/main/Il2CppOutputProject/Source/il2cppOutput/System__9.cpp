@@ -14897,7 +14897,7 @@ IL_0066:
 		String_t* L_24 = ___0_typeName;
 		NullCheck(L_23);
 		Type_t* L_25;
-		L_25 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_23, L_24);
+		L_25 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(19, L_23, L_24);
 		V_1 = L_25;
 	}
 
