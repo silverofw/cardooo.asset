@@ -14984,7 +14984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DataTable_IndexOf_m53D9D42A5C662DA9F6
 		int32_t L_3 = __this->____compareFlags;
 		NullCheck(L_0);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker3< int32_t, String_t*, String_t*, int32_t >::Invoke(12, L_0, L_1, L_2, L_3);
+		L_4 = VirtualFuncInvoker3< int32_t, String_t*, String_t*, int32_t >::Invoke(11, L_0, L_1, L_2, L_3);
 		return L_4;
 	}
 }

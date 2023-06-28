@@ -17,13 +17,18 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: a71f68acbc1cbb74c8546d85759f159b
   m_SerializeEntries:
-  - m_GUID: 73ac5e639efb53146a0bca2066510d2b
-    m_Address: Assets/HotFixResources/HotUpdate.dll.bytes
+  - m_GUID: 2fdac354db8bc744790279a2c0c2e975
+    m_Address: Assets/HotFixRes/226461660.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2fdac354db8bc744790279a2c0c2e975
-    m_Address: Assets/HotFixResources/226461660.png
+  - m_GUID: 73ac5e639efb53146a0bca2066510d2b
+    m_Address: Assets/HotFixRes/HotUpdate.dll.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95420b3370d89024b907ea96d940d5d3
+    m_Address: Assets/HotFixRes/Scene/0020_StartGame.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -18461,7 +18461,7 @@ IL_001f:
 		String_t* L_7 = V_0;
 		NullCheck(L_6);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(17, L_6, L_7, 1);
+		L_8 = VirtualFuncInvoker2< int32_t, String_t*, int32_t >::Invoke(15, L_6, L_7, 1);
 		return L_8;
 	}
 }

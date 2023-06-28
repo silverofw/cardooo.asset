@@ -59,6 +59,7 @@ struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
 struct PreventReadOnlyInstanceModificationAttribute_t7FBCFCBA855C80F9E87486C8A6B4DDBA47B78415;
 struct RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SpanAttribute_t90C28D24C003672376EA4764230E249A8DFFB067;
 struct StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A;
 struct String_t;
 struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
@@ -323,6 +324,11 @@ struct RequiredByNativeCodeAttribute_t86B11F2BA12BB463CE3258E64E16B43484014FCA  
 {
 	bool ___U3COptionalU3Ek__BackingField;
 	bool ___U3CGenerateProxyU3Ek__BackingField;
+};
+struct SpanAttribute_t90C28D24C003672376EA4764230E249A8DFFB067  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	bool ___U3CIsReadOnlyU3Ek__BackingField;
+	String_t* ___U3CSizeParameterU3Ek__BackingField;
 };
 struct StaticAccessorAttribute_tDE194716AED7A414D473DC570B2E0035A5CE130A  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -1437,6 +1443,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreventReadOnlyInstanceModificationAttri
 {
 	{
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpanAttribute__ctor_mB0CE184693D49E4DA6CD6F8D1DC260D5371C5F1B (SpanAttribute_t90C28D24C003672376EA4764230E249A8DFFB067* __this, String_t* ___0_sizeParameter, bool ___1_isReadOnly, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		String_t* L_0 = ___0_sizeParameter;
+		__this->___U3CSizeParameterU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSizeParameterU3Ek__BackingField), (void*)L_0);
+		bool L_1 = ___1_isReadOnly;
+		__this->___U3CIsReadOnlyU3Ek__BackingField = L_1;
 		return;
 	}
 }

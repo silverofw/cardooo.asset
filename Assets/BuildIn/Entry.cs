@@ -1,42 +1,37 @@
-﻿using HybridCLR;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnityEngine.Networking;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.UI;
 
-public class LoadDll : MonoBehaviour
+public class Entry : MonoBehaviour
 {
-    public Image image;
+    public Button LoadDll;
+    public Button StartGame;
+
+    // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("[ENTRY] Hello~");
+
         Addressables.CleanBundleCache();
         AssetBundle.UnloadAllAssetBundles(true);
 
         CheckForUpdate();
 
-        Addressables.LoadAssetAsync<Sprite>("Assets/HotFixResources/226461660.png").Completed += (handle) => {
-            Debug.Log($"[LOAD] SPRITE");
+        LoadDll.onClick.AddListener(() => {
+            Addressables.LoadAssetAsync<TextAsset>("Assets/HotFixRes/HotUpdate.dll.bytes").Completed += (handle) => {
+                Debug.Log("[ENTRY] DoadDll~");
+                Assembly hotUpdateAss = Assembly.Load(handle.Result.bytes);
+                Addressables.LoadSceneAsync("Assets/HotFixRes/Scene/0020_StartGame.unity");
+            };
+        });
 
-            image.sprite = handle.Result;
-        };
-
-        // Editor下无需加载，直接查找获得HotUpdate程序集
-        //Assembly hotUpdateAss = System.AppDomain.CurrentDomain.GetAssemblies().First(a => a.GetName().Name == "HotUpdate");        
-        Addressables.LoadAssetAsync<TextAsset>("Assets/HotFixResources/HotUpdate.dll.bytes").Completed += (handle) => {
-            Assembly hotUpdateAss = Assembly.Load(handle.Result.bytes);
-
-            Type type = hotUpdateAss.GetType("Hello");
-            type.GetMethod("Run").Invoke(null, null);
-        };
+        StartGame.onClick.AddListener(() => {
+            Addressables.LoadSceneAsync("Assets/HotFixRes/Scene/0020_StartGame.unity");
+        });
     }
+
 
     public void CheckForUpdate()
     {
